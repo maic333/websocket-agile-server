@@ -1,0 +1,36 @@
+{
+  "name": "websocket-agile-server",
+  "version": "0.1.0",
+  "description": "WebSocket server supporting Request-Response communication with the clients",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maic333/websocket-agile-server.git"
+  },
+  "keywords": [
+    "websocket",
+    "server",
+    "client",
+    "agile"
+  ],
+  "author": "Maic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maic333/websocket-agile-server/issues"
+  },
+  "homepage": "https://github.com/maic333/websocket-agile-server#readme",
+  "devDependencies": {
+    "@types/ws": "^6.0.1",
+    "tslint": "^5.16.0",
+    "tslint-mi-config": "git+https://github.com/maic333/tslint-mi-config.git",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "agile-client": "git+https://github.com/maic333/agile-client.git",
+    "ws": "^6.2.1"
+  }
+}
